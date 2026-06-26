@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Grocery List</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="header">
+            <h2>Grocery List Generator</h2>
+        </div>
+        <div class="hero">
+            <h1>Welcome to the Grocery List Generator</h1>
+            <p>Did you forget your grocery list at home? No worries!.</p>
+            <p>Use our easy-to-use grocery list generator to create a customized list for your shopping trip</p>
+        </div>
+        <div class="container">
+            
+            <div class="input-box">
+                <h2>Create your grocery list</h2>
+                <input type="text" id="itemInput" placeholder="Enter an item"/>
+                <input type="text" id="quantityInput" placeholder="Enter quantity, Ex 1kg or 2l"/>
+                <button type="button" onclick="addItem()">Add to the list</button>
+                <div class="funcButton">
+                    <button type="button" onclick="clearList()">Clear List</button>
+                    <button type="button" onclick="getList()">Get List</button>
+                </div>
+            </div>
+            <div class="display-box">
+                <h2>Your Grocery List</h2>
+                <ul id="groceryList"></ul>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

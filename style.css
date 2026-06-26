@@ -1,0 +1,131 @@
+body{
+    padding: 0;
+    margin:0;
+}
+.header{
+    background-color: #158900;
+    padding:2px;
+}
+.header h2{
+    color:white;
+    font-size: 20px;
+    font-family:'Inter', sans-serif;
+    margin-left:20px;
+}
+.hero{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    padding:50px;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://thumbs.dreamstime.com/b/vegetables-supermarket-wide-banner-fresh-produce-grocery-retail-background-vegetables-supermarket-wide-banner-fresh-produce-451165261.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero h1{
+    font-size: 50px;
+    font-family:'Inter', sans-serif;
+    color:#ffffff;
+}
+.hero p{
+    font-size: 20px;
+    font-family:'Inter', sans-serif;
+    color:#ffffff;
+}
+.container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.input-box{
+    display:flex;
+    flex-direction:column;
+    margin:20px;
+}
+.input-box h2{
+    font-size: 34px;
+    font-family:'Inter', sans-serif;
+    color:#158900;
+}
+.input-box input{
+    padding:10px;
+    font-size: 16px;
+    font-family:'Inter', sans-serif;
+    border:1px solid #158900;
+    border-radius:20px;
+    margin-top:20px;
+}
+.input-box button{
+    font-size:20px;
+    font-family:'Inter', sans-serif;
+    background-color:#158900;
+    color:white;
+    padding:10px;
+    border:none;
+    border-radius:30px;
+    margin-top:20px;
+    width:200px;
+}
+.input-box button:hover{
+    background-color:#0f6b00;
+    cursor:pointer;
+}
+.display-box{
+    display:flex;
+    flex-direction:column;
+    margin:30px;
+}
+.display-box h2{
+    font-size: 24px;
+    font-family:'Inter', sans-serif;
+    color:#158900;
+}
+.display-box ul{
+    list-style:none;
+}
+.display-box li{
+    font-size:18px;
+    font-family:'Inter', sans-serif;
+    color:#000000;
+    justify-content:space-between;
+    display:flex;
+    flex-direction:row;
+    margin-top:20px;
+}
+.display-box li button:hover{
+    background-color:#cc0000;
+    cursor:pointer;
+}
+.display-box li button{
+    font-size:16px;
+    font-family:'Inter', sans-serif;
+    background-color:#ff0000;
+    color:white;
+    padding:5px;
+    border:none;
+    border-radius:20px;
+    margin-left:60px;
+    margin-right:20px;
+}
+#groceryList{
+    height:300px;
+    overflow-y:auto;
+}
+.funcButton{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    width:300px;
+}
+.funcButton button{
+    font-size:16px;
+    font-family:'Inter', sans-serif;
+    background-color:#158900;
+    color:white;
+    padding:5px;
+    border:none;
+    border-radius:20px;
+    height:40px;
+    margin-right:20px;
+}
