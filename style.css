@@ -129,3 +129,10 @@ body{
     height:40px;
     margin-right:20px;
 }
+.footer{
+    background-color: #158900;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color:white;
+}
